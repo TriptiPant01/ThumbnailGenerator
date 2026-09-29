@@ -21,7 +21,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:3000','https://thumbnail-api-git-main-triptipant01s-projects.vercel.app'],
+    origin: ['http://localhost:5173', 'http://localhost:3000','https://thumbnail-api-git-main-triptipant01s-projects.vercel.app','https://thumbnail-server-ten.vercel.app/'],
     credentials: true,
 }))
 
