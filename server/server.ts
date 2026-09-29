@@ -52,3 +52,4 @@ app.use('/api/user', UserRouter)
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
+export default app;
