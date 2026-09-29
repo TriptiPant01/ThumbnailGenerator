@@ -21,7 +21,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:3000','https://thumbnail-generator-3vc9-psi.vercel.app'],
+    origin: ['http://localhost:5173', 'http://localhost:3000','https://thumbnail-api-git-main-triptipant01s-projects.vercel.app'],
     credentials: true,
 }))
 
