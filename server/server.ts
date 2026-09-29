@@ -18,7 +18,7 @@ declare module 'express-session' {
 
 await connectToMongoDB()
 const app = express();
-
+app.set("trust proxy", 1);
 // Middleware
 app.use(cors({
     origin: ['http://localhost:5173', 'http://localhost:3000','https://client-two-psi-90.vercel.app'],
